@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.canvas{
+  position: fixed;
+  top: 0;
+  
+}
+.base{
+
+  position: absolute;
+  color: antiquewhite;
+  top: 50px;
+  left: 150px;
+  
+  
+  
+}
+.base h1{
+  font-size: 150px;
+  line-height: .5;
+}
+.base span{
+  position: absolute;
+  font-size: 30px;
+  top: 350px;
+  
+}
+
+.divbuttons{
+  position: absolute;
+  left: 430px;
+  top :160px;
+}
+.buttons{
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 0 0 .3em .2em #ffffff ;
+  background-color: rgb(44, 35, 35);
+  color: #ffffff;
+
+}
+.didiv{
+  margin: 40px;
+}
