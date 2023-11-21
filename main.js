@@ -1,11 +1,11 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+//import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 
 const front = document.getElementById('front');
 const side = document.getElementById('side');
-const back = document.getElementById('back')
+const back = document.getElementById('back');
 
 
 
