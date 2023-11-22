@@ -31,7 +31,7 @@ document.body.appendChild( renderer.domElement );
 
 const loader = new GLTFLoader();
 
-loader.load( 'model/bugatti.glb', function ( gltf ) {
+loader.load( '/model/bugatti.glb', function ( gltf ) {
 	var model1 = gltf.scene;
 	model1.position.set(0, 0, 0); // Adjust the position as needed
 	scene.add(model1)
@@ -43,7 +43,7 @@ loader.load( 'model/bugatti.glb', function ( gltf ) {
 
 } );
 
-loader.load( 'model/environment.glb', function ( gltf ) {
+loader.load( '/model/environment.glb', function ( gltf ) {
 
 	var model2 = gltf.scene;
 	model2.position.set(0, -0.7, 0); // Adjust the position as needed
